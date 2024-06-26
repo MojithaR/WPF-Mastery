@@ -1,0 +1,49 @@
+﻿<Window x:Class="_06_WPF_MVVM_TemperatureConverter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_06_WPF_MVVM_TemperatureConverter"
+        mc:Ignorable="d"
+        Title="Temperature Converter" Height="450" Width="800">
+    <Grid Background="#4b3832">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header Section with updated background color -->
+        <Grid Grid.Row="0" Background="#3c2f2f">
+            <TextBlock Text="Temperature Converter" FontWeight="Bold" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#fff4e6"/>
+        </Grid>
+
+        <!-- Content Section with updated background color -->
+        <Grid Grid.Row="1" Background="#854442">
+            <StackPanel Margin="20">
+                <TextBlock Text="Enter a value in Celsius:" FontSize="16" Margin="0 10" Foreground="#fff4e6"/>
+                <TextBox Text="{Binding Celsius, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" FontSize="16" Margin="0 5"/>
+                <TextBlock Text="Fahrenheit:" FontSize="16" Margin="0 10" Foreground="#fff4e6"/>
+                <TextBlock Text="{Binding Fahrenheit, StringFormat={}{0:F2}}" FontSize="16" Margin="0 5" Foreground="#fff4e6"/>
+                <TextBlock Text="Kelvin:" FontSize="16" Margin="0 10" Foreground="#fff4e6"/>
+                <TextBlock Text="{Binding Kelvin, StringFormat={}{0:F2}}" FontSize="16" Margin="0 5" Foreground="#fff4e6"/>
+            </StackPanel>
+        </Grid>
+
+        <!-- Button Section with updated button colors -->
+        <Grid Grid.Row="2" Background="#be9b7b">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <!-- Convert Button with updated color -->
+                <Button Content="Convert" FontSize="18" FontWeight="Bold" Margin="10" Command="{Binding ConvertCommand}" Background="#3c2f2f" Foreground="White"/>
+                <!-- Clear Button with updated color -->
+                <Button Content="Clear" FontSize="18" FontWeight="Bold" Margin="10" Command="{Binding ClearCommand}" Background="#5d140e" Foreground="White"/>
+            </StackPanel>
+        </Grid>
+
+        <!-- Footer Section with updated background color -->
+        <Grid Grid.Row="3" Background="#2f0000">
+            <TextBlock Text="Developed By MojithaR" FontSize="12" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White"/>
+        </Grid>
+    </Grid>
+</Window>
