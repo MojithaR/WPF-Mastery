@@ -1,0 +1,41 @@
+﻿<Window x:Class="_08_WPF_Dashboard.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_08_WPF_Dashboard"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Rectangle HorizontalAlignment="Left" Height="183" Margin="0,2,0,0" Stroke="Black" VerticalAlignment="Top" Width="366"/>
+        <Rectangle HorizontalAlignment="Left" Height="103" Margin="545,331,0,0" Stroke="Black" VerticalAlignment="Top" Width="255"/>
+        <Rectangle HorizontalAlignment="Left" Height="300" Margin="128,82,0,0" Stroke="Black" VerticalAlignment="Top" Width="593"/>
+        <Rectangle HorizontalAlignment="Left" Height="111" Margin="562,2,0,0" Stroke="Black" VerticalAlignment="Top" Width="238"/>
+        <Ellipse HorizontalAlignment="Left" Height="127" Margin="10,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="186"/>
+        <Rectangle HorizontalAlignment="Left" Height="376" Margin="0,58,0,0" Stroke="Black" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="42" Margin="5,190,0,0" VerticalAlignment="Top" Width="44"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="42" Margin="5,246,0,0" VerticalAlignment="Top" Width="44"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="42" Margin="5,305,0,0" VerticalAlignment="Top" Width="44" RenderTransformOrigin="0.782,1.969"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="42" Margin="5,362,0,0" VerticalAlignment="Top" Width="44" RenderTransformOrigin="0.782,3.617"/>
+        <Image HorizontalAlignment="Left" Height="59" Margin="37,39,0,0" VerticalAlignment="Top" Width="134" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.715"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image HorizontalAlignment="Left" Height="64" Margin="196,10,0,0" VerticalAlignment="Top" Width="361"/>
+        <Rectangle HorizontalAlignment="Left" Height="20" Margin="337,404,0,0" Stroke="Black" VerticalAlignment="Top" Width="431"/>
+        <TextBox HorizontalAlignment="Left" Height="173" Margin="128,190,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="258"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="578,10,0,0" VerticalAlignment="Top" Width="56"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="653,10,0,0" VerticalAlignment="Top" Width="56"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="734,10,0,0" VerticalAlignment="Top" Width="56"/>
+        <Image HorizontalAlignment="Left" Height="152" Margin="400,94,0,0" VerticalAlignment="Top" Width="309"/>
+        <TextBlock HorizontalAlignment="Left" Height="152" Margin="400,94,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="309"/>
+        <TextBlock HorizontalAlignment="Left" Margin="238,10,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="40" Width="232"/>
+
+    </Grid>
+</Window>
