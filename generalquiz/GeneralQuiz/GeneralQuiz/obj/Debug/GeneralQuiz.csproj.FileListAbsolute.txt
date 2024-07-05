@@ -1,0 +1,15 @@
+C:\Users\Ariel-PC\source\repos\GeneralQuiz\GeneralQuiz\bin\Debug\GeneralQuiz.exe.config
+C:\Users\Ariel-PC\source\repos\GeneralQuiz\GeneralQuiz\bin\Debug\GeneralQuiz.exe
+C:\Users\Ariel-PC\source\repos\GeneralQuiz\GeneralQuiz\bin\Debug\GeneralQuiz.pdb
+C:\Users\Ariel-PC\source\repos\GeneralQuiz\GeneralQuiz\obj\Debug\GeneralQuiz.csprojAssemblyReference.cache
+C:\Users\Ariel-PC\source\repos\GeneralQuiz\GeneralQuiz\obj\Debug\MainWindow.g.cs
+C:\Users\Ariel-PC\source\repos\GeneralQuiz\GeneralQuiz\obj\Debug\App.g.cs
+C:\Users\Ariel-PC\source\repos\GeneralQuiz\GeneralQuiz\obj\Debug\GeneralQuiz_MarkupCompile.cache
+C:\Users\Ariel-PC\source\repos\GeneralQuiz\GeneralQuiz\obj\Debug\GeneralQuiz_MarkupCompile.lref
+C:\Users\Ariel-PC\source\repos\GeneralQuiz\GeneralQuiz\obj\Debug\MainWindow.baml
+C:\Users\Ariel-PC\source\repos\GeneralQuiz\GeneralQuiz\obj\Debug\GeneralQuiz.g.resources
+C:\Users\Ariel-PC\source\repos\GeneralQuiz\GeneralQuiz\obj\Debug\GeneralQuiz.Properties.Resources.resources
+C:\Users\Ariel-PC\source\repos\GeneralQuiz\GeneralQuiz\obj\Debug\GeneralQuiz.csproj.GenerateResource.cache
+C:\Users\Ariel-PC\source\repos\GeneralQuiz\GeneralQuiz\obj\Debug\GeneralQuiz.csproj.CoreCompileInputs.cache
+C:\Users\Ariel-PC\source\repos\GeneralQuiz\GeneralQuiz\obj\Debug\GeneralQuiz.exe
+C:\Users\Ariel-PC\source\repos\GeneralQuiz\GeneralQuiz\obj\Debug\GeneralQuiz.pdb
