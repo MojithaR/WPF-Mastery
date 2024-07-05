@@ -1,0 +1,16 @@
+C:\Users\ceam\source\repos\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\ceam\source\repos\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\ceam\source\repos\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\ceam\source\repos\Calculator\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\ceam\source\repos\Calculator\Calculator\obj\Debug\MainWindow.g.cs
+C:\Users\ceam\source\repos\Calculator\Calculator\obj\Debug\App.g.cs
+C:\Users\ceam\source\repos\Calculator\Calculator\obj\Debug\Calculator_MarkupCompile.cache
+C:\Users\ceam\source\repos\Calculator\Calculator\obj\Debug\Calculator_MarkupCompile.lref
+C:\Users\ceam\source\repos\Calculator\Calculator\obj\Debug\MainWindow.baml
+C:\Users\ceam\source\repos\Calculator\Calculator\obj\Debug\Calculator.g.resources
+C:\Users\ceam\source\repos\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\ceam\source\repos\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\ceam\source\repos\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\ceam\source\repos\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\ceam\source\repos\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Users\ceam\source\repos\Calculator\Calculator\obj\Debug\App.baml
